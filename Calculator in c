@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+    int n,a,b;
+    printf("enter any number:");
+    scanf("%d",&n);
+    if(n==1)
+    {
+        printf("enter the value of a and b:");
+        scanf("%d%d",&a,&b);
+        printf("sum is %d",a+b);
+    }
+    else if(n==2)
+    {
+        printf("enter the value of a and b:");
+        scanf("%d%d",&a,&b);
+        printf("minus is %d",a-b);
+        
+    }
+    else if(n==3)
+    {
+        printf("enter the value of a and b:");
+        scanf("%d%d",&a,&b);
+        printf("divide is %d",a/b);
+    }
+    else if(n==4)
+    {
+        printf("enter the value of a and b:");
+        scanf("%d%d",&a,&b);
+        printf("product is %d",a*b);
+    }
+    else{
+        printf("wrong ?");
+    }
+
+    return 0;
+}
