@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+    int arr[5]={1,2,3,4,5};      //5 boxes created 
+     printf("%d",arr[2]);   
+}
